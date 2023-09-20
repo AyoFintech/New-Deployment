@@ -5,7 +5,7 @@ on: [push]
 env:
   -var "AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY }}"
 
- -var "AWS_SECRET_KEY_ID${{ secrets.AWS_SECRET_KEY }}"
+  -var "AWS_SECRET_KEY_ID=${{ secrets.AWS_SECRET_KEY }}"
 
 
   jobs:
